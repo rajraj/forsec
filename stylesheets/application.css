@@ -1,0 +1,138 @@
+body {
+  background: #fff url("../images/furley-bg.png") repeat top left;
+  border-top: 5px solid #000;
+  font-size: 12px;
+}
+#page-frame {
+  max-width: 960px;
+  background-color: #fff;
+  margin: 30px auto;
+  border: 1px solid #eee;
+  height: auto !important;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.6);
+  border-top: 4px solid #43767b;
+  height: 100%;
+}
+.page-header {
+  border: none;
+  margin: 10px 20px 0;
+  border-bottom: 4px solid #ddd;
+}
+.brand {
+  margin-left: 0px;
+}
+.menubar {
+  margin: 15px 0px 0 0;
+}
+.menubar li {
+  position: relative;
+  padding: 5px 20px 5px 20px;
+  display: inline-block;
+  background-color: #43767b;
+  color: #fff;
+  margin: 0;
+}
+.menubar li.active {
+  background-color: #254244;
+}
+.menubar li a {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #259196;
+  font-size: 12px;
+}
+.page-content {
+  margin: 10px 20px;
+}
+#slides {
+  z-index:100;
+  overflow:hidden;
+}
+.slides_container {
+  margin-left: 0px;
+  width:950px;
+  overflow:hidden;
+  display:none;
+}
+.slides_container div.slide {
+  width:920px;
+  height:350px;
+  display:block;
+}
+#slides .next,#slides .prev {
+  position:absolute;
+  bottom:0;
+  right:-50;
+  width:24px;
+  height:43px;
+  display:block;
+  z-index:101;
+}
+#slides .next {
+  right:0;
+}
+#slides .pagination {
+  margin:6px 0px 0;
+  width:130px;
+  height: 13px;
+}
+#slides .pagination li {
+  float:left;
+  margin:0 1px;
+  list-style:none;
+}
+#slides .pagination li a {
+  display:block;
+  width:13px;
+  height:0;
+  padding-top:13px;
+  background-image:url("../images/pagination.png");
+  background-position:0 0;
+  float:left;
+  overflow:hidden;
+}
+#slides .pagination li.current a {
+  background-position:0 -13px;
+}
+#slides .caption {
+  z-index:500;
+  position:absolute;
+  bottom:30px;
+  left:30px;
+  height:150px;
+  padding:5px 20px 0 20px;
+  background:#000;
+  width: 300px;
+  font-size:1.3em;
+  line-height:1.33;
+  color:#fff;
+  text-shadow:none;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+div.marketing {
+  border: 1px solid #eee;
+  border-width: 1px 0 1px 0;
+  margin: 10px 0;
+}
+.headline {
+  text-align: center;
+  font-family: georgia, arial, serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #b00;
+}
+.page-footer {
+  height: auto;
+  margin: 20px auto 0;
+  color: white !important;
+  font-family: Helvetica,Arial,sans-serif;
+  text-shadow: 1px 1px 1px black;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 15px 30px 15px;
+  border-top: 1px dashed black;
+  background-color: #111;
+}
