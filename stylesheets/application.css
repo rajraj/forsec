@@ -1,7 +1,8 @@
 body {
   background: #fff url("../images/furley-bg.png") repeat top left;
   border-top: 5px solid #000;
-  font-size: 12px;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 #page-frame {
   max-width: 960px;
@@ -16,23 +17,25 @@ body {
 .page-header {
   border: none;
   margin: 10px 20px 0;
-  border-bottom: 4px solid #ddd;
 }
 .brand {
   margin-left: 0px;
 }
 .menubar {
-  margin: 15px 0px 0 0;
+  margin: 15px 150px 0 0;
+  border-bottom: 5px solid #5AA1A6;
 }
 .menubar li {
   padding: 5px 20px 5px 20px;
   display: inline-block;
   background-color: #43767b;
   color: #fff;
-  margin: 0;
+  margin: 0 0 1px 0;
 }
 .menubar li.active {
-  background-color: #254244;
+  background-color: #5AA1A6;
+  border-bottom: 1px solid #5AA1A6;
+  margin-bottom: -1px;
 }
 .menubar li:hover {
   background-color: #254244;
@@ -180,7 +183,37 @@ div.marketing {
   border-top: 1px dashed black;
   background-color: #111;
 }
+.section-header {
+  border-top: 4px solid #ddd;
+  padding-top: 10px;
+}
+p.lead {
+  font-size: 1.1em;
+  line-height: 1.55em;
+  margin-bottom: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.services-img {
+  margin-bottom: 10px;
+}
+.paul {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 4px solid #f4f4f4;
+}
+.red {
+  color: #b00;
+}
+html, body, #map_canvas {
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
 @media (max-width: 480px) {
+  .menubar {
+    border-bottom: 0px solid #5AA1A6;
+  }
   .menubar li {
     clear: both;
     width: 100%;
