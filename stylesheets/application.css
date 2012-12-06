@@ -19,14 +19,13 @@ body {
   margin: 10px 20px 0;
 }
 .brand {
-  margin-left: 0px;
+  margin: 6px 0 0 0;
 }
 .menubar {
   margin: 15px 150px 0 0;
-  border-bottom: 5px solid #5AA1A6;
+  border-bottom: 6px solid #5AA1A6;
 }
 .menubar li {
-  padding: 5px 20px 5px 20px;
   display: inline-block;
   background-color: #43767b;
   color: #fff;
@@ -38,15 +37,16 @@ body {
   margin-bottom: -1px;
 }
 .menubar li:hover {
-  background-color: #254244;
+  background-color: #5AA1A6;
 }
 .menubar li a {
   display: block;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #259196;
-  font-size: 12px;
+  padding: 8px 25px 8px 25px;
+  font-weight: bold;
+  font-size: 13px;
 }
 .navbar .btn-navbar {
   padding: 7px 10px;
@@ -91,7 +91,7 @@ body {
   margin-top: 3px;
 }
 .page-content {
-  margin: 10px 20px;
+  margin: 20px 20px;
 }
 #slides {
   z-index:100;
@@ -148,7 +148,7 @@ body {
   position:absolute;
   bottom:30px;
   left:30px;
-  height:150px;
+  height:100px;
   padding:5px 20px 0 20px;
   background:#000;
   width: 300px;
@@ -159,6 +159,14 @@ body {
   opacity: 0.6;
   filter: alpha(opacity=60);
 }
+#slides .caption h3 {
+  padding: 0;
+  margin: 0;
+}
+#slides .caption p {
+  padding: 0;
+  margin: 0;
+}
 div.marketing {
   border: 1px solid #eee;
   border-width: 1px 0 1px 0;
@@ -166,20 +174,18 @@ div.marketing {
 }
 .headline {
   text-align: center;
-  font-family: georgia, arial, serif;
-  font-style: italic;
   font-size: 24px;
   color: #b00;
 }
 .page-footer {
   height: auto;
-  margin: 20px auto 0;
+  margin-top: 20px;
   color: white !important;
   font-family: Helvetica,Arial,sans-serif;
   text-shadow: 1px 1px 1px black;
   font-weight: normal;
   font-size: 12px;
-  padding: 15px 30px 15px;
+  padding: 15px 30px 5px;
   border-top: 1px dashed black;
   background-color: #111;
 }
@@ -205,18 +211,19 @@ p.lead {
 .red {
   color: #b00;
 }
-html, body, #map_canvas {
+#map_canvas {
   margin: 0;
   padding: 0;
   height: 300px;
 }
 @media (max-width: 480px) {
+  .brand {
+    float: left;
+  }
   .menubar {
     border-bottom: 0px solid #5AA1A6;
   }
   .menubar li {
-    clear: both;
-    width: 100%;
-    margin-bottom: 1px;
+    display: block;
   }
 }
