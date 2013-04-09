@@ -175,7 +175,9 @@ div.marketing {
 .headline {
   text-align: center;
   font-size: 24px;
-  color: #b00;
+  color: #254144;
+  font-weight: normal;
+  letter-spacing: -1px;
 }
 .page-footer {
   height: auto;
