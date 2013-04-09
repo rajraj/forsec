@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Forward Securities Ltd - Home</title>
+  <title>Forward Securities Ltd - About</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css" media="screen">
@@ -25,6 +25,7 @@
           <li><a href="index.html">Home</a></li>
           <li class="active"><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
+          <li><a href="cctv-rental.html">CCTV Rental</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -53,19 +54,6 @@
           </div>
         </div>
         <hr>
-        <div class="row-fluid">
-          <div class="span12 hide">
-            <h4>Our Clients Include:</h4>
-            <ul class="thumbnails">
-              <li class="span2"><img src="/images/trant-logo.png"></li>
-              <li class="span2"><img src="/images/tse-logo.png"></li>
-              <li class="span2"><img src="/images/tse-logo.png"></li>
-              <li class="span2"><img src="/images/tse-logo.png"></li>
-              <li class="span2"><img src="/images/tse-logo.png"></li>
-              <li class="span2"><img src="/images/tse-logo.png"></li>
-            </ul>
-          </div>
-        </div>
       </article>
     </div>
     <div class="page-footer">
@@ -82,25 +70,4 @@
   </div>
   <script type="text/javascript" src="/javascripts/jquery-1.8.1.min.js"></script>
   <script type="text/javascript" src="javascripts/bootstrap-collapse.js"></script>
-  <script type="text/javascript" src="/javascripts/slides.min.jquery.js"></script>
-  <script type="text/javascript">
-    $(function(){
-      $('#slides').slides({
-        preload: true,
-        preloadImage: '/images/loading.gif',
-        play: 6000,
-        pause: 6000,
-        hoverPause: true,
-        animationStart: function(current){
-          $('.caption').stop().hide();
-        },
-        animationComplete: function(current){
-          $('.caption').stop().show();
-        },
-        slidesLoaded: function() {
-          $('.caption').stop().show();
-        }
-      });
-    })
-  </script>
 </body>
