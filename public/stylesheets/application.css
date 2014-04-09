@@ -1,12 +1,8 @@
 body {
   background: #fff url("../images/furley-bg.png") repeat top left;
   border-top: 5px solid #000;
-<<<<<<< HEAD
-  font-size: 12px;
-=======
   font-size: 13px;
   font-family: "Helvetica Neue", Arial, sans-serif;
->>>>>>> origin/gh-pages
 }
 #page-frame {
   max-width: 960px;
@@ -21,26 +17,6 @@ body {
 .page-header {
   border: none;
   margin: 10px 20px 0;
-<<<<<<< HEAD
-  border-bottom: 4px solid #ddd;
-}
-.brand {
-  margin-left: 0px;
-}
-.menubar {
-  margin: 15px 0px 0 0;
-}
-.menubar li {
-  position: relative;
-  padding: 5px 20px 5px 20px;
-  display: inline-block;
-  background-color: #43767b;
-  color: #fff;
-  margin: 0;
-}
-.menubar li.active {
-  background-color: #254244;
-=======
 }
 .brand {
   margin: 6px 0 0 0;
@@ -62,20 +38,12 @@ body {
 }
 .menubar li:hover {
   background-color: #5AA1A6;
->>>>>>> origin/gh-pages
 }
 .menubar li a {
   display: block;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-<<<<<<< HEAD
-  text-shadow: 1px 1px 1px #259196;
-  font-size: 12px;
-}
-.page-content {
-  margin: 10px 20px;
-=======
   padding: 8px 25px 8px 25px;
   font-weight: bold;
   font-size: 13px;
@@ -124,7 +92,6 @@ body {
 }
 .page-content {
   margin: 20px 20px;
->>>>>>> origin/gh-pages
 }
 #slides {
   z-index:100;
@@ -181,11 +148,7 @@ body {
   position:absolute;
   bottom:30px;
   left:30px;
-<<<<<<< HEAD
-  height:150px;
-=======
   height:50px;
->>>>>>> origin/gh-pages
   padding:5px 20px 0 20px;
   background:#000;
   width: 300px;
@@ -193,10 +156,6 @@ body {
   line-height:1.33;
   color:#fff;
   text-shadow:none;
-<<<<<<< HEAD
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-=======
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -207,7 +166,6 @@ body {
 #slides .caption p {
   padding: 0;
   margin: 0;
->>>>>>> origin/gh-pages
 }
 div.marketing {
   border: 1px solid #eee;
@@ -216,16 +174,6 @@ div.marketing {
 }
 .headline {
   text-align: center;
-<<<<<<< HEAD
-  font-family: georgia, arial, serif;
-  font-style: italic;
-  font-size: 24px;
-  color: #b00;
-}
-.page-footer {
-  height: auto;
-  margin: 20px auto 0;
-=======
   font-size: 24px;
   color: #254144;
   font-weight: normal;
@@ -234,17 +182,11 @@ div.marketing {
 .page-footer {
   height: auto;
   margin-top: 20px;
->>>>>>> origin/gh-pages
   color: white !important;
   font-family: Helvetica,Arial,sans-serif;
   text-shadow: 1px 1px 1px black;
   font-weight: normal;
   font-size: 12px;
-<<<<<<< HEAD
-  padding: 15px 30px 15px;
-  border-top: 1px dashed black;
-  background-color: #111;
-=======
   padding: 15px 30px 5px;
   border-top: 1px dashed black;
   background-color: #111;
@@ -291,5 +233,4 @@ p.lead {
   .menubar li {
     display: block;
   }
->>>>>>> origin/gh-pages
 }
